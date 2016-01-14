@@ -1,4 +1,5 @@
-login-cidadao.nfg_access_lvl.title: Nota Fiscal Gaúcha's Level
-login-cidadao.nfg_access_lvl.description: Badge given to those who have their Nota Fiscal Gaúcha account linked to Citizen Login.
-login-cidadao.voter_registration.title: Valid Voter Registration
-login-cidadao.voter_registration.description: Badge given to those who typed their voter registration.
+meurs.title: Meu RS
+meurs.nfg_access_lvl.title: Nota Fiscal Gaúcha's Level
+meurs.nfg_access_lvl.description: Badge given to those who have their Nota Fiscal Gaúcha account linked to Citizen Login.
+meurs.voter_registration.title: Valid Voter Registration
+meurs.voter_registration.description: Badge given to those who typed their voter registration.
