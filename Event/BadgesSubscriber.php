@@ -67,11 +67,12 @@ class BadgesSubscriber extends AbstractBadgesEventSubscriber
     protected function checkNfg(EvaluateBadgesEvent $event)
     {
         $person = $event->getPerson();
-        if (method_exists($person, 'getNfgProfile') && $person->getNfgProfile()) {
+        $meuRSPerson = $this->meuRSHelper->getPersonMeuRS($person);
+        if (method_exists($meuRSPerson, 'getNfgProfile') && $meuRSPerson->getNfgProfile()) {
             $event->registerBadge($this->getBadge('nfg_access_lvl',
-                    $person->getNfgProfile()->getAccessLvl()));
+                    $meuRSPerson->getNfgProfile()->getAccessLvl()));
 
-            if ($person->getNfgProfile()->getVoterRegistrationSit() > 0) {
+            if ($meuRSPerson->getNfgProfile()->getVoterRegistrationSit() > 0) {
                 $event->registerBadge($this->getBadge('voter_registration', true));
             }
         }
