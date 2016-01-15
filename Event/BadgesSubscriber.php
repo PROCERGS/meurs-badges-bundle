@@ -29,7 +29,7 @@ class BadgesSubscriber extends AbstractBadgesEventSubscriber
         $this->em          = $em;
         $this->meuRSHelper = $meuRSHelper;
 
-        $namespace = 'meurs';
+        $namespace = 'nfg';
         $this->setName($namespace);
 
         $this->registerBadge('nfg_access_lvl',
