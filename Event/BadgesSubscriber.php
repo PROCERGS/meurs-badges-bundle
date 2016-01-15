@@ -1,11 +1,11 @@
 <?php
 
-namespace MeuRS\BadgesBundle\Event;
+namespace NFG\BadgesBundle\Event;
 
 use LoginCidadao\BadgesControlBundle\Model\AbstractBadgesEventSubscriber;
 use LoginCidadao\BadgesControlBundle\Event\EvaluateBadgesEvent;
 use LoginCidadao\BadgesControlBundle\Event\ListBearersEvent;
-use MeuRS\BadgesBundle\Model\Badge;
+use NFG\BadgesBundle\Model\Badge;
 use Symfony\Component\Translation\TranslatorInterface;
 use Doctrine\ORM\EntityManager;
 use LoginCidadao\BadgesControlBundle\Model\BadgeInterface;

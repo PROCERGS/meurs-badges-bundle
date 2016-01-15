@@ -1,5 +1,5 @@
-meurs.title: Meu RS
-meurs.nfg_access_lvl.title: Nível na Nota Fiscal Gaúcha
-meurs.nfg_access_lvl.description: Medalha concedida a quem tem sua conta da NFG vinculada ao Login Cidadão.
-meurs.voter_registration.title: Título de Eleitor Válido
-meurs.voter_registration.description: Medalha concedida a quem informou seu Título de Eleitor.
+nfg.title: Meu RS
+nfg.nfg_access_lvl.title: Nível na Nota Fiscal Gaúcha
+nfg.nfg_access_lvl.description: Medalha concedida a quem tem sua conta da NFG vinculada ao Login Cidadão.
+nfg.voter_registration.title: Título de Eleitor Válido
+nfg.voter_registration.description: Medalha concedida a quem informou seu Título de Eleitor.

@@ -1,9 +1,9 @@
 {
-    "name": "procergs/meurs-badges-bundle",
+    "name": "procergs/nfg-badges-bundle",
     "type": "symfony-bundle",
-    "description": "Meu RS Badge Bundle",
-    "keywords": ["login-cidadao", "meurs", "Meu RS", "badges"],
-    "homepage": "https://github.com/PROCERGS/meurs-badges-bundle",
+    "description": "Meu RS NFG Badge Bundle",
+    "keywords": ["login-cidadao", "meurs", "Meu RS", "nfg", "badges"],
+    "homepage": "https://github.com/PROCERGS/nfg-badges-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-0": { "MeuRS\\BadgesBundle": "" }
+        "psr-0": { "NFG\\BadgesBundle": "" }
     },
-    "target-dir": "MeuRS/BadgesBundle"
+    "target-dir": "NFG/BadgesBundle"
 }

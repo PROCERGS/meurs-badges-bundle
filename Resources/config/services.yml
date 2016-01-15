@@ -1,9 +1,9 @@
 parameters:
-    meurs_badges.subscriber.class: MeuRS\BadgesBundle\Event\BadgesSubscriber
+    nfg_badges.subscriber.class: NFG\BadgesBundle\Event\BadgesSubscriber
 
 services:
-    meurs_badges.subscriber:
-        class: %meurs_badges.subscriber.class%
+    nfg_badges.subscriber:
+        class: %nfg_badges.subscriber.class%
         arguments: [ @translator, @doctrine.orm.entity_manager, @meurs.helper ]
         tags:
             - { name: kernel.event_subscriber }

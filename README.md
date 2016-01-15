@@ -1,4 +1,4 @@
-meurs-badges-bundle
+nfg-badges-bundle
 ===========================
 
-Meu RS badges
+Meu RS NFG badges

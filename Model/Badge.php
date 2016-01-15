@@ -1,6 +1,6 @@
 <?php
 
-namespace MeuRS\BadgesBundle\Model;
+namespace NFG\BadgesBundle\Model;
 
 use LoginCidadao\BadgesControlBundle\Model\BadgeInterface;
 
