@@ -72,7 +72,7 @@ class BadgesSubscriber extends AbstractBadgesEventSubscriber
             $event->registerBadge($this->getBadge('nfg_access_lvl',
                     $meuRSPerson->getNfgProfile()->getAccessLvl()));
 
-            if ($meuRSPerson->getNfgProfile()->getVoterRegistrationSit() > 0) {
+            if ($meuRSPerson->getNfgProfile()->getVoterRegistrationSit() == 1) {
                 $event->registerBadge($this->getBadge('voter_registration', true));
             }
         }
