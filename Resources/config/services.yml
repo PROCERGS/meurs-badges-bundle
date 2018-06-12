@@ -3,7 +3,10 @@ parameters:
 
 services:
     nfg_badges.subscriber:
-        class: %nfg_badges.subscriber.class%
-        arguments: [ @translator, @doctrine.orm.entity_manager, @meurs.helper ]
+        class: "%nfg_badges.subscriber.class%"
+        arguments:
+            - "@translator"
+            - "@doctrine.orm.entity_manager"
+            - "@meurs.helper"
         tags:
             - { name: kernel.event_subscriber }
