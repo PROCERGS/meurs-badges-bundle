@@ -1,6 +1,6 @@
 .badges-list .badge-nfg_access_lvl {
-    background-color: #FAB60F;
-    border: solid 1px #D58D8D;
+    background-color: #FAB60F !important;
+    border: solid 1px #D58D8D !important;
 }
 
 .badges-list .badge-nfg_access_lvl:before {
@@ -8,8 +8,8 @@
 }
 
 .badges-list .badge-voter_registration {
-    background-color: #C3EC87;
-    border: solid 1px #A0BBA6;
+    background-color: #C3EC87 !important;
+    border: solid 1px #A0BBA6 !important;
 }
 
 .badges-list .badge-voter_registration:before {

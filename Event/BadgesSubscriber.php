@@ -106,7 +106,7 @@ class BadgesSubscriber extends AbstractBadgesEventSubscriber
         $query = $this->em->getRepository('PROCERGSLoginCidadaoCoreBundle:PersonMeuRS')
             ->createQueryBuilder('m')
             ->select('n.accessLvl, COUNT(n) total')
-            ->join('PROCERGSLoginCidadaoCoreBundle:NfgProfile', 'n', 'WITH',
+            ->join('PROCERGSNfgBundle:NfgProfile', 'n', 'WITH',
                 'm.nfgProfile = n')
             ->groupBy('n.accessLvl');
 
@@ -134,7 +134,7 @@ class BadgesSubscriber extends AbstractBadgesEventSubscriber
         return $this->em->getRepository('PROCERGSLoginCidadaoCoreBundle:PersonMeuRS')
                 ->createQueryBuilder('m')
                 ->select('COUNT(p)')
-                ->join('PROCERGSLoginCidadaoCoreBundle:NfgProfile', 'n', 'WITH',
+                ->join('PROCERGSNfgBundle:NfgProfile', 'n', 'WITH',
                     'm.nfgProfile = n')
                 ->join('LoginCidadaoCoreBundle:Person', 'p', 'WITH',
                     'm.person = p')
